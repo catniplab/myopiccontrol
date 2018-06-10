@@ -1,4 +1,4 @@
-Repo contents for myopicControl
+Repo contents for myopiccontrol
 
 tf_funys.py: the primary module containing the tensorflow graphs
 threechoice_dynamics.py: module containing dynamics equations for diseased dynamics system
