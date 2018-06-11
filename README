@@ -1,7 +1,0 @@
-Repo contents for myopiccontrol
-
-tf_funys.py: the primary module containing the tensorflow graphs
-threechoice_dynamics.py: module containing dynamics equations for diseased dynamics system
-sim_disease.ipynb: example python notebook for myopic control of an inverted pendulum, made to function in reverse gravity
-sim_disease.ipynb: example pythong notebook for myopic control of a diseased dynamical system containing a beta oscillation, made to function as a healthy system
-
