@@ -5,7 +5,7 @@ This is a portion of the work I have been doing to for designing controllers for
 
 I have been exploring two domains of reserach for this approach. The first is for attempting to assist the diseased brain to restore its healthy function, with example code shown in sim_lag_myopic_wang.ipynb. This is extremely important for disorders like Parkinson's disease (PD), that may have an overall brain "state" that is indicative of some symptom, such as a body tremor. It is our belief that these symptoms are related to an overall state of the brain that is stuck in some unhealthy form. We explore how neural control could be used to let the neural dyanmics operate as though that unhealthy disease state never existed, and perform its healthy action. In our specific example a limit cycle attractor state acts as the tremor state for a patient that is trying to perform a motor action (denoted by one of three stable states). Uncontrolled dynamics fall into the limit cycle attractor and oscillate at around 20Hz, the same as a beta oscillation seen in PD patients. However, controlled dynamics perform as though the limit cycle never existed, and casually make their way over to one of the motor command stable states. We essentially let the brain dynamics do their own thing without "telling" them to go over to those motor command states, which is the crux of our philosophy that we shouldn't use control to specifically direct the dynamics of the brain.
 
-![](decision_phaseportrait.jpg)
+![](disease_phaseportrait.jpg)
 ![](disease_controlled.png)
 
 
